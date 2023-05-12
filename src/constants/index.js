@@ -13,16 +13,14 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  stockoverwatch,
+  dreamtxt,
+  scheduler,
   threejs,
+  hudsons,
+  terra,
+  prestige,
+  cmh,
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +40,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Custom Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Native Specialist",
     icon: mobile,
   },
   {
@@ -54,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "QA & Maintenance",
     icon: creator,
   },
 ];
@@ -104,162 +102,125 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Security Professional",
+    company_name: "Hudoson's Canada Pub",
+    icon: hudsons,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provide security & awareness training to co-workers",
+      "Hosting large corporate and social events",
+      "Monitor security systems to identify and mitigate potential risks or breaches of security.",
+      "Developing and implementing procedures and policies to keep staff and guests safe and secure.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Underground Infrastructure Repairman",
+    company_name: "TerraBurst Inc",
+    icon: terra,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2021 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conduct inspections and diagnose sewer and watermain potential hazards using hightech equipment",
+      "Communicate with home/business owners to provide quotes and friendly service. Discuss potential solutions to problems.",
+      "Pipe repair, maintenance, and prevention against floods back-ups and leaks",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Journeyman Plumber",
+    company_name: "Prestigious Plumbing",
+    icon: prestige,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "January 2018 - December 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Installing, repairing, and maintaining plumbing systems and fixtures, such as pipes, valves, faucets, and toilets.",
+      "Reading and interpreting blueprints, drawings, and specifications to determine plumbing requirements for new construction or renovation projects.",
+      "Ensuring compliance with building codes, safety standards, and other regulations governing plumbing systems and fixtures, and maintaining accurate records of work performed.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Demolition Specialist",
+    company_name: "CMH Industries",
+    icon: cmh,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "April 2016 - December 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Evaluating the scope of the demolition project, including the size and type of structure to be demolished, and identifying any potential hazards or obstacles that may impact the demolition process.",
+      "Preparing detailed cost estimates and proposals for demolition services, including labor, equipment, and disposal costs, and presenting them to clients for review and approval.",
+      "Developing and maintaining relationships with subcontractors and vendors to ensure that all necessary equipment and resources are available for the demolition project.",
+      "Ensuring compliance with all relevant safety regulations and guidelines, and taking appropriate measures to minimize risks to workers, the public, and the environment during the demolition process.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Stock OverWatch",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based educational platform that allows users to interact with the live stockmarket using imaginary funds.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase api",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: stockoverwatch,
+    source_code_link: "https://github.com/LIZXP/StockOverWatch",
   },
   {
-    name: "Job IT",
+    name: "Dream TxT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to look-up, compare, and purchase books. This app is secure and enables specific permissions for different account types.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dreamtxt,
+    source_code_link: "https://github.com/Devcab2/DREAM.txt",
+  },
+  {
+    name: "Scheduler",
+    description: 
+      "A comprehensive calendar / booking app that allows users to plan out their appointments and meetings in a simple easy to use format.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "jest",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: scheduler,
+    source_code_link: "https://github.com/Devcab2/scheduler",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
