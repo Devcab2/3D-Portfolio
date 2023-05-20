@@ -45,7 +45,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
+        className="mt-4 text-white text-[17px] max-w-3x1 leading-[30px]"
       >
 
         Hey there, I'm Chris, a front-end developer with a passion for crafting engaging and intuitive user interfaces. I've had the pleasure of attending Lighthouse Labs' web dev program, where I gained a solid foundation in full-stack development and hands-on experience with React, Tailwindcss, postgreSQL, and Cypress . <br /><br />

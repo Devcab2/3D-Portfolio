@@ -8,17 +8,17 @@ const App = () => {
   return (
     <BrowserRouter>
       <Colors>
+      <StarsCanvas />
         <div className="relative z-0.1 bg-primary">
           <Navbar />
           <Hero />
         </div>
         <About />
         <Experience />
-        <Tech />
         <Works />
+        <Tech />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
         </div>
       </Colors>
     </BrowserRouter>
