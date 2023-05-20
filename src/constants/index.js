@@ -21,6 +21,7 @@ import {
   terra,
   prestige,
   cmh,
+  github,
 } from "../assets";
 
 export const navLinks = [

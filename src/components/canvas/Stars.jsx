@@ -29,7 +29,7 @@ const Stars = (props) => {
 
 const StarsCanvas = () => {
   return (
-    <div className="w-screen h-screen fixed inset-0 z-[-1]">
+    <div className="w-screen h-screen fixed">
       <Canvas camera={{ position: [0, 0, 1] }}>
         <Stars />
 

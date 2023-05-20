@@ -13,22 +13,26 @@ const Colors = ({ children }) => {
     'linear-gradient(120deg, #27204e, #504c7b)',
   ];
 
+
+  const transitionDuration = 6; // Duration in seconds
+
   useEffect(() => {
     const interval = setInterval(() => {
       setGradientIndex((prevIndex) => (prevIndex + 1) % gradients.length);
-    }, 6000);
+    }, transitionDuration * 1000);
     return () => clearInterval(interval);
   }, [gradients.length]);
 
+ 
+
+  const containerStyle = {
+    backgroundImage: gradients[gradientIndex],
+    animation: `fadeTransition ${transitionDuration}s linear infinite`,
+  };
+
   return (
     <div className="relative z-0.1">
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage: gradients[gradientIndex],
-          animation: 'fadeTransition 12s linear infinite',
-        }}
-      />
+      <div className="absolute inset-0" style={containerStyle} />
       {children}
     </div>
   );
