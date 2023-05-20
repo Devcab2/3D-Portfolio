@@ -1,14 +1,16 @@
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
-
-import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import { Colors } from "./components";
+import { About, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+      <Colors>
+        <div className="relative z-0.1 bg-primary">
           <Navbar />
-          <Hero />  
+          <Hero />
         </div>
         <About />
         <Experience />
@@ -18,9 +20,11 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-      </div>
+      </Colors>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default App
+export default App;
+
+
