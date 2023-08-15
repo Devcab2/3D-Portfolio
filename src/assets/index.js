@@ -21,6 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import salesq from "./company/salesq.png";
 import cmh from "./company/cmh.png";
 import hudsons from "./company/hudsons.png";
 import prestige from "./company/prestige.png";
@@ -53,6 +54,7 @@ export {
   typescript,
   threejs,
   cmh,
+  salesq,
   hudsons,
   prestige,
   terra,

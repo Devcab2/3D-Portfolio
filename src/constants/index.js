@@ -17,6 +17,7 @@ import {
   dreamtxt,
   scheduler,
   threejs,
+  salesq,
   hudsons,
   terra,
   prestige,
@@ -107,8 +108,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "QA Intern",
+    company_name: "SalesQ",
+    icon: salesq,
+    iconBg: "#383E56",
+    date: "Aug 2023 - Current",
+    points: [
+      "Assist in setup of QA Framework using Cypress",
+      "communicate and work well with new coworkers",
+      "Write unit tests in Javascript for mobile/web application",
+      "integrate existing application to use end to end testing",
+    ],
+  },
+  {
     title: "Security Professional",
-    company_name: "Hudoson's Canada Pub",
+    company_name: "Hudson's Canada Pub",
     icon: hudsons,
     iconBg: "#383E56",
     date: "March 2022 - Current",
