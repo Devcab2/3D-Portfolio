@@ -16,9 +16,9 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-white'>Chris !</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            React is the frame 3D is the game <br className='sm:block hidden' />
             Welcome to my development portfolio! <br className='sm:block hidden' />
-            Don't forget to play with the 3D models below ...
+            I develop 3D React applications <br className='sm:block hidden' />
+            All of the models below are functional please experiment
           </p>
         </div>
       </div>

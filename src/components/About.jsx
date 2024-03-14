@@ -48,7 +48,7 @@ const About = () => {
         className="mt-4 text-white text-[17px] max-w-3x1 leading-[30px]"
       >
 
-        Hey there, I'm Chris, a front-end developer with a passion for crafting engaging and intuitive user interfaces. I've had the pleasure of attending Lighthouse Labs' web dev program, where I gained a solid foundation in full-stack development and hands-on experience with React, Tailwindcss, Express, and Cypress . <br /><br />
+        Hello, I'm Chris, a fullstack web dev with a passion for crafting engaging and intuitive user interfaces. I've had the pleasure of attending Lighthouse Labs' web dev program as well as a few start up tech companies where I gained a solid foundation in full-stack development, Automated testing, React, Tailwindcss, Express, and Cypress . <br /><br />
 
         I'm also experienced in using SQL to build scalable and efficient back-end solutions, and I've dabbled in Threejs to create stunning 3D visualizations and animations. <br /><br />
 

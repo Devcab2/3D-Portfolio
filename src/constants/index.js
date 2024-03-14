@@ -21,7 +21,7 @@ import {
   hudsons,
   terra,
   prestige,
-  cmh,
+  mycro,
   github,
 } from "../assets";
 
@@ -108,15 +108,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "QA Intern",
-    company_name: "SalesQ",
+    title: "Front End Developer",
+    company_name: "Mycro Harvest",
+    icon: mycro,
+    iconBg: "#E6DEDD",
+    date: "March 2024 - Current",
+    points: [
+      "Front end development using Webflow.",
+      "Weekly meetings with CTO, and development team.",
+      "Refactor and optimize exisiting JS code.",
+      "Motion / 3d visual enhancements to web app.",
+    ],
+  },
+  {
+    title: "QA Engineer",
+    company_name: "Quil Technologies",
     icon: salesq,
     iconBg: "#383E56",
-    date: "Aug 2023 - Current",
+    date: "Aug 2023 - Dec 2023",
     points: [
-      "Assist in setup of QA Framework using Cypress",
-      "communicate and work well with new coworkers",
-      "Write unit tests in Javascript for mobile/web application",
+      "Assist in setup of Automated QA Framework using Cypress",
+      "Unit Testing, API Testing, Functional Testing, Load Testing",
       "integrate existing application to use end to end testing",
     ],
   },
@@ -125,7 +137,7 @@ const experiences = [
     company_name: "Hudson's Canada Pub",
     icon: hudsons,
     iconBg: "#383E56",
-    date: "March 2022 - Current",
+    date: "March 2023 - Sept 2023",
     points: [
       "Provide security & awareness training to co-workers",
       "Hosting large corporate and social events",
@@ -138,7 +150,7 @@ const experiences = [
     company_name: "TerraBurst Inc",
     icon: terra,
     iconBg: "#E6DEDD",
-    date: "March 2021 - March 2022",
+    date: "March 2022 - March 2023",
     points: [
       "Conduct inspections and diagnose sewer and watermain potential hazards using hightech equipment",
       "Communicate with home/business owners to provide quotes and friendly service. Discuss potential solutions to problems.",
@@ -150,24 +162,11 @@ const experiences = [
     company_name: "Prestigious Plumbing",
     icon: prestige,
     iconBg: "#383E56",
-    date: "January 2018 - December 2021",
+    date: "January 2018 - Sept 2022",
     points: [
       "Installing, repairing, and maintaining plumbing systems and fixtures, such as pipes, valves, faucets, and toilets.",
       "Reading and interpreting blueprints, drawings, and specifications to determine plumbing requirements for new construction or renovation projects.",
       "Ensuring compliance with building codes, safety standards, and other regulations governing plumbing systems and fixtures, and maintaining accurate records of work performed.",
-    ],
-  },
-  {
-    title: "Demolition Specialist",
-    company_name: "CMH Industries",
-    icon: cmh,
-    iconBg: "#E6DEDD",
-    date: "April 2016 - December 2017",
-    points: [
-      "Evaluating the scope of the demolition project, including the size and type of structure to be demolished, and identifying any potential hazards or obstacles that may impact the demolition process.",
-      "Preparing detailed cost estimates and proposals for demolition services, including labor, equipment, and disposal costs, and presenting them to clients for review and approval.",
-      "Developing and maintaining relationships with subcontractors and vendors to ensure that all necessary equipment and resources are available for the demolition project.",
-      "Ensuring compliance with all relevant safety regulations and guidelines, and taking appropriate measures to minimize risks to workers, the public, and the environment during the demolition process.",
     ],
   },
 ];
